@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f6f3e9">
+<meta name="description" content="Una escena ilustrada para hacer una pausa y pensar en el cuidado, sin culpas ni respuestas correctas.">
+<title>Antes de responder · El cuerpo toma la palabra</title>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css">
+<link rel="preload" href="./assets/Literata.ttf" as="font" type="font/ttf" crossorigin>
+<script src="./scene.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#lectura">Ir a la lectura</a>
+<header class="masthead"><p>El cuerpo toma la palabra</p><span>Una historia para leernos con calma</span></header>
+<main class="spread">
+ <div class="opening"><h1>Antes de <br><em>responder.</em></h1><p class="intro">A veces, una pausa también<br class="desktop-break"> es parte de la respuesta.</p></div>
+ <figure class="illustration"><img src="./assets/la-pausa.svg" width="900" height="920" alt="Una mujer adulta, cansada al final del día, sostiene una taza junto a una ventana. En la mesa esperan un teléfono y un libro. La tarde sigue, tranquila, al otro lado del cristal."><figcaption>La tarde puede esperar un momento.</figcaption></figure>
+ <section class="reading" id="lectura" aria-label="La escena y sus respuestas">
+  <p class="story">Por fin se ha sentado. La taza aún está tibia. Quedan cosas por hacer, pero por un instante no hace ninguna.</p>
+  <p class="arrival">Entonces, llega un mensaje.</p>
+  <blockquote>«¿Puedes encargarte tú<br class="desktop-break"> también de esto?»</blockquote>
+  <div id="choice-panel">
+   <p class="invitation" id="choice-label">Prueba una respuesta. No hay una correcta.</p>
+   <div class="choices" role="group" aria-labelledby="choice-label">
+    <button type="button" data-choice="yes">Sí, yo puedo <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-5-5 5 5-5 5"/></svg></button>
+    <button type="button" data-choice="help">Hoy necesito ayuda <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-5-5 5 5-5 5"/></svg></button>
+   </div>
+  </div>
+  <section class="reflection" id="reflection" hidden aria-labelledby="reflection-title">
+   <p class="chosen" id="chosen"></p>
+   <h2 id="reflection-title" tabindex="-1"></h2>
+   <p id="reflection-copy"></p>
+   <p class="question" id="reflection-question"></p>
+   <button class="back" id="back" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H5m5-5-5 5 5 5"/></svg> Volver y probar otra respuesta</button>
+  </section>
+  <noscript><p class="noscript">Para explorar las dos respuestas, activa JavaScript. Mientras tanto, quédate con esto: aceptar una tarea o pedir ayuda no define tu valor. Tu cansancio también merece un lugar.</p></noscript>
+  <details class="book-note"><summary>Lo que invita a pensar el libro<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary>
+   <div><p><cite>Cuando el cuerpo dice NO</cite>, de Gabor Maté, propone mirar el espacio que dejamos a nuestras necesidades dentro de las relaciones y el cuidado.</p><p>Esta escena toma esa pregunta como punto de partida, no como diagnóstico. Decir «sí» o «no» no explica por qué alguien enferma ni determina su salud. Ninguna persona es culpable de su enfermedad.</p><p class="note-end">Reflexión original, no cita del libro. El cuidado también necesita tiempo, apoyo y condiciones que lo hagan posible.</p></div>
+  </details>
+ </section>
+</main>
+<footer><p>Escena de ficción <span aria-hidden="true">·</span> No es un diagnóstico ni un consejo médico.</p><span class="closing-mark" aria-hidden="true"><svg viewBox="0 0 56 26"><path d="M5 22C22 16 35 12 51 3M22 16C17 14 17 7 21 4C27 6 28 12 22 16ZM34 11C34 17 42 19 47 15C45 10 39 8 34 11Z"/></svg></span><p>Una pausa. No una prueba.</p></footer>
+</body></html>
