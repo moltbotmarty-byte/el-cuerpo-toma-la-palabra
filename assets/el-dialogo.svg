@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="800" viewBox="0 0 900 800"><title>Un camino de ida y vuelta</title><desc>Una mujer adulta hace una pausa en un jardín junto a dos senderos que se encuentran. No es un esquema anatómico.</desc><defs>
+ <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".68" numOctaves="3" seed="18" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".12"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+ <filter id="edge" x="-3%" y="-3%" width="106%" height="106%"><feTurbulence baseFrequency=".025" numOctaves="3" seed="24" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="1.8" xChannelSelector="R" yChannelSelector="G"/></filter>
+ <linearGradient id="wall" x1="200" y1="100" x2="700" y2="800" gradientUnits="userSpaceOnUse"><stop stop-color="#eeeadd"/><stop offset="1" stop-color="#e7e4d3" stop-opacity=".1"/></linearGradient>
+ <linearGradient id="skin" x1="450" y1="280" x2="594" y2="470" gradientUnits="userSpaceOnUse"><stop stop-color="#c59070"/><stop offset=".5" stop-color="#e2b293"/><stop offset="1" stop-color="#cc987a"/></linearGradient>
+ <linearGradient id="shirt" x1="380" y1="410" x2="610" y2="710" gradientUnits="userSpaceOnUse"><stop stop-color="#687f85"/><stop offset=".5" stop-color="#536e77"/><stop offset="1" stop-color="#3e5b65"/></linearGradient>
+ <linearGradient id="wood" x1="400" y1="613" x2="400" y2="860" gradientUnits="userSpaceOnUse"><stop stop-color="#d5b894"/><stop offset="1" stop-color="#c09e77"/></linearGradient>
+</defs><g filter="url(#edge)">
+<path d="M92 146C171 84 337 94 450 111C595 77 769 131 797 254L816 639C696 738 251 758 86 658Z" fill="#e9e8d9"/>
+<path d="M105 411C237 333 323 355 453 385C561 348 721 343 806 396L816 644C655 722 259 746 86 658Z" fill="#c3cdb7"/>
+<path d="M119 595C279 485 379 474 506 515C647 562 703 540 811 477L816 524C697 592 607 602 486 563C351 522 256 550 156 635Z" fill="#e9dfc7"/>
+<path d="M276 721C357 623 498 607 643 649L727 702L654 717C497 662 411 685 384 734Z" fill="#d5c7ab"/>
+<g stroke="#7b8667" fill="none" stroke-width="4"><path d="M172 517C188 394 151 259 168 176M170 337L126 278M174 302L224 242M736 560C700 411 733 275 710 192M718 352L772 294M716 303L674 248"/></g>
+<g fill="#94a789"><path d="M131 287C94 271 102 223 111 206C144 225 148 258 131 287Z"/><path d="M210 258C203 224 237 193 263 194C262 229 240 251 210 258Z"/><path d="M675 256C636 246 642 202 651 190C679 205 687 230 675 256Z"/><path d="M760 307C754 273 788 249 814 252C807 282 787 300 760 307Z"/></g>
+<path d="M598 576L776 563L780 588L599 601Z M615 597L605 683L622 684L636 596M750 588L765 665L780 662L768 586" fill="#a98d70"/>
+<g transform="translate(350 112) scale(0.67 0.67) translate(-350 -180)"><path d="M471 410C439 410 414 425 400 456L367 640C410 674 512 680 567 645L561 472C555 438 545 419 536 416C518 439 488 443 471 410Z" fill="#667e83"/>
+    <path d="M472 414L456 430L495 457L507 439L527 457L548 430L536 416" fill="#a0ada0" opacity=".65"/>
+    <path d="M506 448L513 643M426 469C412 519 410 567 418 607M548 476L551 598" stroke="#354f59" stroke-width="2" opacity=".45"/>
+    <path d="M392 641C366 683 371 910 383 985L468 985L485 677L509 985L579 982C585 900 575 678 561 646Z" fill="#777c68"/>
+    <path d="M405 678L419 975M539 677L552 973" stroke="#59634f" stroke-width="3" opacity=".5"/>
+    <path d="M402 454C380 477 365 530 363 566C363 590 400 620 455 639L470 610L402 560L429 481Z" fill="#667e83"/>
+    <path d="M451 607L473 615L463 644L443 637Z" fill="#a0ada0"/>
+    <path d="M469 617C491 623 508 622 526 617C537 613 548 613 550 619L535 626C551 622 559 628 552 632L529 638C511 643 485 639 463 635Z" fill="#ddb092"/>
+    <path d="M552 452C570 475 591 529 602 571L588 592L565 579L536 485Z" fill="#667e83"/>
+    <path d="M568 578L589 574C601 596 596 614 576 631L552 641L541 628C560 612 570 596 568 578Z" fill="#d3a184"/>
+    <path d="M478 631L507 633M522 628L538 623" stroke="#b78366" stroke-width="1.4"/>
+    <path d="M383 981C371 993 353 995 351 1007L436 1009L445 985M516 981L520 1007L601 1007C599 996 578 993 571 981" fill="#514b3e"/>
+<path d="M465 277C444 248 454 214 483 201C519 184 556 201 569 227C588 241 594 268 585 294L560 347L489 376C457 350 444 317 465 277Z" fill="#4b4139"/>
+<path d="M465 273C436 269 426 250 430 230C434 207 464 199 481 215C495 232 488 254 465 273Z" fill="#51463c"/>
+<path d="M437 241C444 218 464 216 478 231M439 250C453 259 466 248 470 235M462 215C452 221 447 228 447 238" stroke="#82705b" stroke-width="2" opacity=".7"/>
+<path d="M463 267C456 268 450 264 445 261" stroke="#c1b092" stroke-width="4"/>
+<!-- Neck runs anatomically into open collar -->
+<path d="M488 352C491 380 483 400 470 416L480 454L537 448L552 417C529 410 528 382 531 369Z" fill="url(#skin)"/>
+<path d="M496 371C507 387 520 394 531 393L534 415C517 413 502 402 496 389Z" fill="#b58165" opacity=".65"/>
+
+<path d="M505 249C523 250 545 243 560 249C575 261 574 278 581 292C585 300 594 307 597 314C599 319 592 323 584 323C582 331 583 339 578 343C576 361 565 378 551 382C533 385 511 370 500 353L489 326L489 285Z" fill="url(#skin)"/>
+<path d="M566 279C569 294 575 302 578 306C580 311 578 315 576 316" stroke="#b57d61" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576 322C580 324 582 324 585 323" stroke="#90624f" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M568 338C575 336 578 339 582 337C580 342 573 344 568 341" fill="#ad7460"/>
+<path d="M568 339L580 339" stroke="#825b4c" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M567 352C563 353 561 353 558 352" stroke="#c18a6b" stroke-width="1.5"/>
+<path d="M535 289C544 284 552 286 558 290" stroke="#655346" stroke-width="2.7" stroke-linecap="round"/>
+<path d="M537 300C544 306 551 306 557 302M551 305L553 308M546 306L547 309" stroke="#5b4b42" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M537 312C544 317 552 317 556 315" stroke="#c78d70" stroke-width="1.2" opacity=".7"/>
+<path d="M532 322C540 314 556 319 558 328C552 335 538 335 532 322Z" fill="#cb8e76" opacity=".22"/>
+<!-- hair sweeping over the temple; ear not an extra face -->
+<path d="M472 279C477 246 503 222 530 229C546 229 564 238 568 254C547 244 530 259 516 272C506 284 506 306 500 323L488 333C474 317 469 299 472 279Z" fill="#51453a"/>
+<path d="M487 267C501 246 520 239 542 242M482 280C490 260 505 249 521 246M481 291C480 310 486 320 490 325M498 254C505 244 518 236 531 236" stroke="#8e775d" stroke-width="2" opacity=".62" stroke-linecap="round"/>
+<path d="M500 308C488 298 481 311 486 325C489 335 500 339 504 328" fill="#d3a184"/>
+<path d="M495 312C488 309 490 322 496 324M495 319C498 319 499 322 498 325" stroke="#a6755d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M495 334C487 342 488 353 494 359" stroke="#4b4139" stroke-width="2" stroke-linecap="round"/>
+<ellipse cx="499" cy="334" rx="3" ry="4" fill="#d2b971"/>
+<path d="M465 272C449 286 452 309 456 316M459 279C449 284 445 298 448 305" stroke="#6e5d4c" stroke-width="1.5" stroke-linecap="round"/>
+</g><path d="M103 674C119 639 128 623 139 618M124 667L164 639M738 705L756 666" stroke="#7b8667" stroke-width="3"/><g fill="#8b9776"><path d="M135 629C111 626 107 605 111 594C133 599 141 614 135 629Z"/><path d="M148 651C148 627 175 619 187 626C178 644 167 652 148 651Z"/></g></g></svg>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="920" viewBox="0 0 900 920" fill="none">
+<title>La pausa, una ilustración original</title><desc>Una mujer adulta de cabello oscuro recogido descansa las manos alrededor de una taza. Está sentada a una mesa de madera junto a una ventana abierta al verde. Hay un teléfono boca arriba, un libro, una rama de olivo y un paño doblado. Su mirada baja y sus hombros relajados hablan de una tarde larga.</desc>
+<defs>
+ <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".68" numOctaves="3" seed="18" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".12"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+ <filter id="edge" x="-3%" y="-3%" width="106%" height="106%"><feTurbulence baseFrequency=".025" numOctaves="3" seed="24" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="1.8" xChannelSelector="R" yChannelSelector="G"/></filter>
+ <linearGradient id="wall" x1="200" y1="100" x2="700" y2="800" gradientUnits="userSpaceOnUse"><stop stop-color="#eeeadd"/><stop offset="1" stop-color="#e7e4d3" stop-opacity=".1"/></linearGradient>
+ <linearGradient id="skin" x1="450" y1="280" x2="594" y2="470" gradientUnits="userSpaceOnUse"><stop stop-color="#c59070"/><stop offset=".5" stop-color="#e2b293"/><stop offset="1" stop-color="#cc987a"/></linearGradient>
+ <linearGradient id="shirt" x1="380" y1="410" x2="610" y2="710" gradientUnits="userSpaceOnUse"><stop stop-color="#687f85"/><stop offset=".5" stop-color="#536e77"/><stop offset="1" stop-color="#3e5b65"/></linearGradient>
+ <linearGradient id="wood" x1="400" y1="613" x2="400" y2="860" gradientUnits="userSpaceOnUse"><stop stop-color="#d5b894"/><stop offset="1" stop-color="#c09e77"/></linearGradient>
+</defs>
+<!-- Hand-authored gouache shapes, washes and pencil lines. -->
+<g filter="url(#edge)">
+<path d="M94 119C176 71 319 81 417 95C568 76 704 102 795 193L814 649C728 721 220 766 73 646C57 499 73 270 94 119Z" fill="url(#wall)"/>
+<!-- light through the window -->
+<path d="M135 129L421 104L434 466L132 489Z" fill="#bdc8b5"/>
+<path d="M148 141L406 121L419 452L147 473Z" fill="#e0e6d4"/>
+<path d="M148 321C195 267 226 306 267 257C312 209 365 241 411 208L419 452L147 473Z" fill="#c3cdb7"/>
+<path d="M146 397C180 334 215 354 263 315C315 274 372 328 414 274L419 452L147 473Z" fill="#acbaa4"/>
+<path d="M151 448C222 384 283 420 329 386C365 358 397 382 418 370L419 452L147 473Z" fill="#8fa58f"/>
+<!-- Pencil trees outside -->
+<g stroke="#758e77" stroke-width="2" opacity=".65"><path d="M216 450C227 365 208 293 218 217M216 347L184 310M217 319L245 281M335 429C325 360 337 271 325 187M331 324L357 291M332 281L302 252"/></g>
+<g fill="#839b7d" opacity=".7"><path d="M187 310C161 309 160 287 160 273C184 278 191 292 187 310Z"/><path d="M245 281C243 259 263 245 278 242C278 263 265 277 245 281Z"/><path d="M302 253C282 249 280 229 283 215C303 223 310 238 302 253Z"/><path d="M356 291C356 268 374 257 390 259C386 276 373 289 356 291Z"/></g>
+<path d="M131 129L145 126L147 473L424 451L425 469L131 495Z" fill="#e9e2cc"/>
+<path d="M270 119L282 117L289 462L277 463Z" fill="#ece6d3"/>
+<path d="M140 285L414 265L416 279L142 300Z" fill="#ece6d3"/>
+<path d="M128 493L433 468L450 480L142 509Z" fill="#b5aa90"/>
+<path d="M145 143L145 469M285 132L292 453M156 303L268 295" stroke="#8d9784" stroke-width="1.5" opacity=".6"/>
+<!-- linen curtain -->
+<path d="M98 107C123 117 144 103 168 111C155 186 171 230 151 290C142 327 151 367 129 416L100 410C120 299 87 229 98 107Z" fill="#f4efe2"/>
+<path d="M114 118C106 214 133 272 111 395M143 119C129 186 150 241 132 298" stroke="#d8d2be" stroke-width="3"/>
+<!-- wall shelf and quiet domestic objects -->
+<path d="M644 246L805 258L805 269L642 258Z" fill="#b7a98c"/>
+<path d="M677 244L677 179L691 177L695 248" fill="#849083"/>
+<path d="M697 248L699 187L710 188L715 249" fill="#d1b797"/>
+<path d="M719 250L712 194L725 192L733 251" fill="#a98d76"/>
+<path d="M755 250C738 240 743 218 747 210L774 212C777 226 781 245 765 251Z" fill="#c7bda1"/>
+<path d="M757 214C760 195 756 178 763 165M761 190L778 176M760 198L746 185" stroke="#7b8667" stroke-width="2"/>
+<path d="M763 178C755 167 763 150 771 146C778 160 772 174 763 178ZM771 182C771 169 786 163 794 165C791 180 780 184 771 182ZM751 190C737 192 731 180 734 170C747 171 753 178 751 190Z" fill="#8b9776"/>
+<!-- chair visible behind the body -->
+<path d="M310 538C291 516 270 522 270 547L288 765L309 766L302 558C301 548 305 544 310 550L382 663L396 651Z" fill="#9b7758"/>
+<path d="M281 543L299 738M306 558L376 662" stroke="#c8a279" stroke-width="4"/>
+<path d="M295 749C344 729 394 738 433 759L425 784L301 786Z" fill="#aa8462"/>
+<path d="M307 781L293 886L308 887L327 781M406 779L433 882L448 880L427 778" fill="#8d7258"/>
+<!-- skirt, sitting weight and soft folds -->
+<path d="M400 651C382 686 355 726 367 762C392 803 503 807 552 792C569 765 563 725 553 682Z" fill="#777c68"/>
+<path d="M392 712C413 750 464 770 542 773M405 739C440 778 505 786 548 781" stroke="#626955" stroke-width="3" opacity=".6"/>
+<!-- dark hair silhouette and loose bun -->
+<path d="M465 277C444 248 454 214 483 201C519 184 556 201 569 227C588 241 594 268 585 294L560 347L489 376C457 350 444 317 465 277Z" fill="#4b4139"/>
+<path d="M465 273C436 269 426 250 430 230C434 207 464 199 481 215C495 232 488 254 465 273Z" fill="#51463c"/>
+<path d="M437 241C444 218 464 216 478 231M439 250C453 259 466 248 470 235M462 215C452 221 447 228 447 238" stroke="#82705b" stroke-width="2" opacity=".7"/>
+<path d="M463 267C456 268 450 264 445 261" stroke="#c1b092" stroke-width="4"/>
+<!-- Neck runs anatomically into open collar -->
+<path d="M488 352C491 380 483 400 470 416L480 454L537 448L552 417C529 410 528 382 531 369Z" fill="url(#skin)"/>
+<path d="M496 371C507 387 520 394 531 393L534 415C517 413 502 402 496 389Z" fill="#b58165" opacity=".65"/>
+<!-- blouse silhouette -->
+<path d="M471 410C448 411 418 418 401 440C379 474 370 519 367 561C363 604 382 639 390 679C438 704 503 706 555 688C558 649 562 620 565 589C583 558 590 530 576 491C566 455 559 428 536 416C519 440 491 445 471 410Z" fill="url(#shirt)"/>
+<path d="M470 411L455 425C465 447 480 458 492 464L507 441C490 439 477 427 470 411Z" fill="#809393"/>
+<path d="M535 416L552 428L529 463L507 441C520 439 529 430 535 416Z" fill="#758a8d"/>
+<path d="M508 447C509 491 504 535 512 577L512 688" stroke="#9baba6" stroke-width="2" opacity=".65"/>
+<g fill="#d0c7af"><ellipse cx="510" cy="477" rx="2.7" ry="3"/><ellipse cx="509" cy="518" rx="2.7" ry="3"/><ellipse cx="511" cy="557" rx="2.7" ry="3"/></g>
+<g stroke="#354f59" stroke-width="2.6" opacity=".55"><path d="M424 449C410 484 407 514 407 550M445 480C438 505 441 537 446 560M554 465C549 498 560 520 550 547M422 622C449 644 478 652 496 651M396 666C414 668 428 667 436 663"/></g>
+<!-- face: angled three-quarter profile with eyes lowered -->
+<path d="M505 249C523 250 545 243 560 249C575 261 574 278 581 292C585 300 594 307 597 314C599 319 592 323 584 323C582 331 583 339 578 343C576 361 565 378 551 382C533 385 511 370 500 353L489 326L489 285Z" fill="url(#skin)"/>
+<path d="M566 279C569 294 575 302 578 306C580 311 578 315 576 316" stroke="#b57d61" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M576 322C580 324 582 324 585 323" stroke="#90624f" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M568 338C575 336 578 339 582 337C580 342 573 344 568 341" fill="#ad7460"/>
+<path d="M568 339L580 339" stroke="#825b4c" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M567 352C563 353 561 353 558 352" stroke="#c18a6b" stroke-width="1.5"/>
+<path d="M535 289C544 284 552 286 558 290" stroke="#655346" stroke-width="2.7" stroke-linecap="round"/>
+<path d="M537 300C544 306 551 306 557 302M551 305L553 308M546 306L547 309" stroke="#5b4b42" stroke-width="1.7" stroke-linecap="round"/>
+<path d="M537 312C544 317 552 317 556 315" stroke="#c78d70" stroke-width="1.2" opacity=".7"/>
+<path d="M532 322C540 314 556 319 558 328C552 335 538 335 532 322Z" fill="#cb8e76" opacity=".22"/>
+<!-- hair sweeping over the temple; ear not an extra face -->
+<path d="M472 279C477 246 503 222 530 229C546 229 564 238 568 254C547 244 530 259 516 272C506 284 506 306 500 323L488 333C474 317 469 299 472 279Z" fill="#51453a"/>
+<path d="M487 267C501 246 520 239 542 242M482 280C490 260 505 249 521 246M481 291C480 310 486 320 490 325M498 254C505 244 518 236 531 236" stroke="#8e775d" stroke-width="2" opacity=".62" stroke-linecap="round"/>
+<path d="M500 308C488 298 481 311 486 325C489 335 500 339 504 328" fill="#d3a184"/>
+<path d="M495 312C488 309 490 322 496 324M495 319C498 319 499 322 498 325" stroke="#a6755d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M495 334C487 342 488 353 494 359" stroke="#4b4139" stroke-width="2" stroke-linecap="round"/>
+<ellipse cx="499" cy="334" rx="3" ry="4" fill="#d2b971"/>
+<path d="M465 272C449 286 452 309 456 316M459 279C449 284 445 298 448 305" stroke="#6e5d4c" stroke-width="1.5" stroke-linecap="round"/>
+<!-- Far sleeve and forearm -->
+<path d="M553 464C577 472 589 529 601 566C607 585 610 602 598 615C583 627 564 618 561 602L542 551Z" fill="#59747c"/>
+<path d="M562 580C574 580 591 577 600 573L609 603C598 614 580 615 569 608Z" fill="#8c9d9b"/>
+<path d="M574 610C578 626 574 637 563 647L548 657L562 673C585 663 602 648 602 632L599 610Z" fill="#cf9d80"/>
+<!-- table top cuts across the composition -->
+<path d="M177 663C319 631 550 616 787 632L843 782C646 844 394 869 147 822Z" fill="url(#wood)"/>
+<path d="M147 822C387 862 652 841 843 782L843 797C638 857 389 880 151 837Z" fill="#a88764"/>
+<g stroke="#a98762" stroke-width="1.6" opacity=".42"><path d="M189 705C363 673 559 656 797 671M171 756C392 731 600 708 813 721M229 811C452 817 637 786 816 751M248 673C400 648 546 639 660 642M297 780C401 787 540 770 596 762"/><path d="M615 688C651 683 699 682 715 686C696 692 641 695 615 688ZM624 689C656 686 684 686 697 687"/></g>
+<!-- near sleeve rests on the table -->
+<path d="M410 449C385 454 369 506 359 542C347 580 343 616 358 636C375 653 406 667 444 677L461 640C428 623 403 613 393 603C392 580 413 536 422 507Z" fill="#667e83"/>
+<path d="M372 529C366 566 354 606 366 621M396 473C379 507 372 540 370 555M373 629C394 642 415 649 436 653" stroke="#415e69" stroke-width="2.5" opacity=".65"/>
+<path d="M437 634L462 642L451 680C441 680 432 677 427 672Z" fill="#94a39f"/>
+<path d="M440 640L432 669M447 644L439 674" stroke="#c0c5b7" stroke-width="1.4" opacity=".7"/>
+<!-- arms and hands, relaxed around a ceramic cup -->
+<path d="M459 648C480 654 498 657 518 653C528 651 534 648 540 648L552 655L550 675C538 682 522 686 508 684C486 682 468 678 450 675Z" fill="#ddb092"/>
+<path d="M460 671C483 677 502 680 522 678" stroke="#b78366" stroke-width="1.5" stroke-linecap="round"/>
+<!-- saucer and cup -->
+<ellipse cx="563" cy="695" rx="47" ry="11" fill="#9f8e70" opacity=".3"/>
+<path d="M520 686C539 676 581 675 603 684C607 689 586 698 559 698C538 698 520 692 520 686Z" fill="#dfd6bc"/>
+<path d="M584 645C612 637 616 654 611 667C608 678 598 679 587 675" stroke="#e4dcc8" stroke-width="9"/>
+<path d="M540 638L589 638L585 682C580 693 548 693 542 681Z" fill="#ece3ce"/>
+<path d="M544 645L548 680C553 685 563 686 569 686" stroke="#d1c5a9" stroke-width="2"/>
+<ellipse cx="564" cy="638" rx="25" ry="7.5" fill="#c7b89a"/>
+<ellipse cx="564" cy="640" rx="21" ry="4.5" fill="#80694f"/>
+<!-- left hand fingers rest against near side -->
+<path d="M521 655C530 649 534 643 539 646C542 649 535 653 535 658C543 654 548 655 551 658C554 661 546 663 540 665C548 663 554 666 552 669C550 671 543 673 538 673C546 671 552 675 547 678C542 682 532 682 522 679Z" fill="#e0b294"/>
+<g stroke="#b88469" stroke-width="1.2" stroke-linecap="round"><path d="M530 662L540 659M530 670L541 666M530 676L540 673"/></g>
+<!-- far hand only its visible thumb and knuckles -->
+<path d="M586 646C586 637 580 635 579 641L579 651C573 650 573 655 578 659L585 663L587 651Z" fill="#d6a486"/>
+<!-- Phone, a quiet rectangle, not an animated alert -->
+<path d="M422 716L490 704L522 731L453 746Z" fill="#59605a"/>
+<path d="M429 717L488 708L513 730L454 741Z" fill="#d6dccb"/>
+<path d="M443 720L480 714M450 725L489 718M455 729L478 725" stroke="#8b9d91" stroke-width="2.6"/>
+<path d="M451 746L522 731L521 736L451 751L421 721L422 716Z" fill="#424d48"/>
+<!-- book and loosely folded linen -->
+<path d="M204 747L300 734L363 767L264 785Z" fill="#9a6e55"/>
+<path d="M208 746L302 736L358 764L265 780Z" fill="#e9dfc7"/>
+<path d="M209 751L264 783L359 768L360 776L263 793L205 759Z" fill="#c9bca0"/>
+<path d="M205 759L264 790L361 774L363 780L263 799L203 764Z" fill="#9b7158"/>
+<path d="M239 755L292 747M250 761L304 752M264 767L305 760" stroke="#b4a487" stroke-width="1.1"/>
+<path d="M285 783L291 783L299 814L292 811L289 816Z" fill="#657966"/>
+<path d="M658 731C686 720 716 728 750 716L792 752C757 760 729 777 699 771Z" fill="#e5dfce"/>
+<path d="M658 731L701 766C735 765 760 755 792 752M680 728L722 766M694 728L736 762M708 726L752 758" stroke="#a9ad9b" stroke-width="2" opacity=".7"/>
+<!-- olive branch in a small stoneware pitcher at left -->
+<path d="M218 602C191 596 189 616 197 633C203 645 219 645 226 639" stroke="#8e9278" stroke-width="9"/>
+<path d="M216 578C226 581 242 581 253 578L249 605C254 626 266 653 255 670C245 685 212 682 205 669C198 651 208 622 215 605Z" fill="#91987b"/>
+<path d="M217 589C223 596 236 596 249 590M210 650C207 664 218 671 229 672" stroke="#c0c1a1" stroke-width="2.5"/>
+<path d="M232 580C227 530 201 496 185 461M232 563C251 534 263 502 264 474M216 537C191 526 171 509 158 483" stroke="#716f50" stroke-width="2.5" stroke-linecap="round"/>
+<g fill="#7e8d6e"><path d="M201 498C182 502 170 489 170 472C188 474 200 484 201 498Z"/><path d="M207 508C203 487 215 471 229 468C231 487 223 502 207 508Z"/><path d="M218 534C219 515 234 508 248 509C245 526 232 534 218 534Z"/><path d="M250 528C250 506 236 494 225 494C225 513 235 527 250 528Z"/><path d="M259 501C261 482 278 475 290 480C284 496 273 502 259 501Z"/><path d="M266 478C253 469 254 450 260 440C273 448 276 464 266 478Z"/><path d="M181 516C167 517 153 505 152 491C170 491 180 502 181 516Z"/><path d="M184 465C168 459 165 444 168 434C183 439 189 450 184 465Z"/></g>
+<g fill="#a1ad8d"><path d="M199 500C190 494 182 483 178 478C189 483 196 490 199 500Z"/><path d="M209 504C215 489 219 481 225 475C224 488 220 496 209 504Z"/><path d="M263 497L284 483C278 491 271 495 263 497Z"/></g>
+<!-- gentle pencil contour fragments, not a heavy cartoon outline -->
+<g stroke="#655b4a" stroke-width="1.25" opacity=".5" stroke-linecap="round"><path d="M177 664C210 655 241 651 266 649M148 822C236 836 295 840 345 840M619 829C709 813 785 797 826 786M436 882L447 880M404 443C416 423 444 414 464 413M510 382C520 389 526 390 530 391M548 374C557 375 568 366 573 357"/></g>
+</g>
+<!-- A bounded paper grain, kept subtle enough for mobile. -->
+<path d="M94 119C176 71 319 81 417 95C568 76 704 102 795 193L843 782L843 797C638 857 389 880 151 837L73 646C57 499 73 270 94 119Z" fill="#a08e72" opacity=".12" filter="url(#grain)" style="mix-blend-mode:multiply"/>
+</svg>
